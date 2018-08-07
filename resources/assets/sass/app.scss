@@ -1,0 +1,30 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "bootstrap";
+
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+body{
+  background-image: url("../img/ee.jpg");
+  background-size: cover;
+  background-repeat: no-repeat ;
+}
+.container2{
+  background-color: #ffffff;
+  min-height: 90vh;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-radius: 2px;
+  border: 1px  solid black;
+}
